@@ -1,0 +1,325 @@
+body{
+font-family: segoe ui light;
+font-size: 17px;
+}
+.home{
+    
+
+    /* height: 630px; */
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+}
+.navbar{
+    background-color:rgba(0, 0, 0,0);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+.navbar-img{
+    
+    float: left;
+}
+.navbar-img img{
+    width: 200px;
+
+}
+.navbar-links{
+   display:flex;
+   
+    /* float: right; */
+}
+.navbar-links ul{
+    list-style-type: none;
+}
+
+.navbar-links ul li{
+    float: left;
+    padding: 10px 20px;
+}
+.navbar-links ul li a{
+    color: #fff;
+}
+
+.setting{
+    width: 40px;
+    height: 80px;
+    background-color: rgba(255,255,255, .92);
+    position: fixed;
+    top: 200px;
+    right: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    
+
+}
+.container-sett-img{
+    padding: 2px ;
+}
+
+
+
+.clr{
+    clear: both;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.caption{
+    /* background-color: aqua; */
+    padding: 100px;
+     width: 50%;
+     margin: auto;
+     text-align: center;
+}
+.caption p
+{
+    color: rgba(255,255,255, .92);
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px;
+    
+}
+.caption h6
+{
+    font-size: 22px;
+    color: rgba(255,255,255, .92);
+    padding: 20px;
+}
+.caption h1
+{
+    font-size: 58px;
+    color: #fff;
+
+}
+.btn1 ,.btn2
+{
+    font-size: 17px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    padding: 15px 28px;
+    border-radius: 4px;
+    margin:20px 5px;
+}
+.btn1{
+    background-color: #8e7754;
+    color: #fff;
+}
+.btn1:hover{
+    background-color: white;
+    color: #8e7754;
+}
+.btn2:hover{
+    background-color: #8e7754;
+    color:white ;
+}
+.btn2{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.desciption{
+    /* background-color: aqua; */
+    padding: 30px;
+}
+ .desciption-img{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.desciption-img img{
+    width: 100%;
+}
+
+.desciption-cont{
+    
+    width: 50%;
+    float: left;
+    padding: 20px;
+   
+}
+.desciption-cont h2{
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Alegreya";
+    margin-bottom: 25px;
+}
+
+.desciption-cont p
+{
+    /* width: 100%; */
+    font-size: 17px;
+    color: #686868;
+    margin: 20px 0;
+    
+}
+.desciption-cont-items{
+    padding-top: 10px;
+}
+.test{
+    float: left;
+    padding-top: 10px;
+    
+}
+.test1{
+     padding: 5px 0;
+}
+.location{
+    background-color:  #f8f8f8;
+    padding: 30px;
+    
+}
+.container-loc{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    background-color:  #f8f8f8;
+}
+.location-dis{
+    width: 50%;
+    float: left;
+    background-color:  #f8f8f8;
+    padding-top: 30px;
+    padding-right: 10px;
+   
+   
+}
+.location-dis h2{
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Alegreya";
+    margin-bottom: 25px;
+}
+.location-dis p{
+    font-size: 17px;
+    color: #686868;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+.location-img{
+    width: 50%; 
+    float: left; 
+    background-color:  #f8f8f8;
+    padding: 0 10px; 
+    
+}
+.location-img img{
+    width: 100%;
+}
+.our-baking{
+    text-align: center;
+}
+
+
+
+.our-baking h2{
+    margin: 10px;
+}
+.our-baking p{
+    margin: 15px;
+}
+.our-baking-cont{
+    width: 33%;
+    float: left;
+    padding: 10px;
+    
+}
+.our-baking-cont img{
+    width: 100%;
+    padding-top: 10px;
+    
+}
+.our-baking-cont h3{
+    padding: 15px;
+}
+.our-baking-cont p{
+    padding: 10px;
+}
+.contacts-iframe
+{
+    background-color:  #f8f8f8;
+    width: 50%;
+    float: right;
+    padding-top: 20px;
+}
+.contacts-iframe iframe{
+    width: 100%;
+}
+.contacts-cont{
+    width: 50%;
+    float: left;
+    background-color:  #f8f8f8;
+    
+}
+.Contacts{
+    background-color:  #f8f8f8;
+}
+.contacts-cont h2{
+    padding: 20px;
+    
+}
+.contacts-cont p{
+    padding: 20px;
+    color: #686868;
+}
+.contacts-cont h6{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #686868;
+}
+.contacts-cont-items {
+padding-top: 5px;
+}
+.contacts-cont-items .test{
+    padding-top: 10px;
+}
+.contacts-cont-items .test1{
+    padding: 0;
+}
+.container-cont{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    background-color:  #f8f8f8;
+}
+
+@media screen and (min-width : 600px) and ( max-width: 800px)
+{
+    .contacts .contacts-cont 
+    {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
